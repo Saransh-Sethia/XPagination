@@ -36,3 +36,43 @@
     transform: rotate(360deg);
   }
 }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead{
+  color: #ffffff;
+  background-color: #088103;
+  height: 9vh
+}
+
+tbody{
+  height: 7vh;
+  border-bottom: 1px solid #828385;
+  background-color: #e6ebea;
+}
+
+.button{
+  border: 1px solid #088103;
+  padding: 10px 1px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #088103;
+  color: #ffffff;
+  margin: 25px;
+}
+
+.current-page{
+  border: 1px solid #088103;
+  padding: 10px 1px;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #088103;
+  color: #ffffff;
+  margin: 25px;
+}
