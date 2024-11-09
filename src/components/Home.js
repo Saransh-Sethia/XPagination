@@ -57,6 +57,7 @@ const Home = () => {
 
   return (
     <div>
+      <h1>Employee Data Table</h1>
       <Table usersDetails={usersDetails} currentUsers={currentUsers} />
       <Pagination
       usersPerPage={usersPerPage}
