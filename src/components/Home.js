@@ -43,14 +43,14 @@ const Home = () => {
     if(currentPage > 1){
       setCurentPage(currentPage - 1)
     }
-    console.log('previous')
+    
   }
 
   const nextPage = (maxPageLength) => {
     if(currentPage < maxPageLength){
       setCurentPage(currentPage + 1);
     }
-    console.log('next', currentPage)
+   
   }
   
 

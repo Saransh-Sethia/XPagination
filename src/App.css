@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  max-height: 100vh;
 }
 
 .App-logo {
@@ -42,13 +43,13 @@ table {
   width: 100%;
 }
 
-thead{
+.head{
   color: #ffffff;
   background-color: #088103;
   height: 9vh
 }
 
-tbody{
+.body{
   height: 7vh;
   border-bottom: 1px solid #828385;
   background-color: #e6ebea;
