@@ -6,7 +6,7 @@ const Pagination = ({usersPerPage, nextPage, previousPage, totalUsers, currentPa
 
   return (
     <div>
-      <button className="button" disabled={currentPage === 1} onClick={()=>previousPage()}>Previous</button>
+      <button className="button" onClick={()=>previousPage()}>Previous</button>
       <button className="current-page">{currentPage}</button>
       <button className="button" disabled={currentPage === pageNumbers ? true : false} onClick={()=>nextPage(pageNumbers)}>Next</button>
     </div>
